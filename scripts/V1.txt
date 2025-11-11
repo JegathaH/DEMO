@@ -1,0 +1,6 @@
+-- scripts/01_create_tables.sql
+CREATE OR REPLACE TABLE customers (
+  id INT,
+  name STRING,
+  created_at TIMESTAMP
+);
